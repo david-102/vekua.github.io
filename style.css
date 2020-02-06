@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+html {
+	background: url(back1.jpg)  no-repeat;
+	scroll-behavior: smooth;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.menu ul {
+	display: inline-flex;
+	margin: 50px;
+}
+
+.menu ul li {
+	list-style: none;
+	margin: 0px 20px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+
+.menu a:hover {
+	border-bottom: 2px solid white;
+}
+
+
+.search-button {
+	border-radius: 35px;
+	display: block;
+	position: absolute;
+	left: 80%;
+	bottom: 90%;
+	border:  none;
+}
+
+.searchicon {
+	display: block;
+	position: absolute;
+	left: 93%;
+	bottom: 90%;
+	cursor: pointer;
+}
+
+.menu li {
+	color: white;
+	cursor: pointer;
+}
+
+
+
+
+
+.block {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 700px;
+}
+
+.content-1 {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#asidescroll, .main {
+	width: 50%;
+	float: left;
+}
+
+.out {
+	position: absolute;
+	display: block;
+	top: 115%;
+	width: 99%;
+}
+
+.block2 {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.aside2, .main2 {
+	width: 50%;
+	float: left;
+}
+
+.css-image	{
+	width: 80%;
+
+}
+
+#secondhr {
+	position: absolute;
+	display: block;
+	top: 90%;
+	width: 99%;
+}
+
+
+.contact-form {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	text-align: center;
+}
+
+.message {
+	position: absolute;
+	display: block;
+	text-align: center;
+	height: 170px;
+	width: 200px;
+
+} 
+
+
+#but {
+	position: absolute;
+	display: block;
+	top: 70%;
+	left: 50%;
+	width:65px;
+	height: 35px;
+	border-radius: 35px;
+	border: none;
+	background: red;
+	cursor: pointer;
+}
+
+.vekua {
+	font-family: 'Shadows Into Light', cursive;
+
+}
+
+.hello {
+	position: absolute;
+	left: 43%;
+	top: 48%;
+	font-size: 52px;
+	color: white;
+
+}
+
+footer {
+	padding: 32px;
+	text-align: center;
+	margin-top: 300px;
+	background: black;
+	color: white;
+	display: block;
+
+}
+
+.contact-me {
+	right: 94%;
+	position: absolute;
+	border: none;
+	border-radius: 20px;
+	background: red;
+	height: 30px;
+	cursor: pointer;
+
+}
+
+.contact-me:hover {
+	background: magenta;
+	transition: 0.5s;
+}
+
+.contact-me:active {
+	background: magenta;
+}
+
+.facebook-soc, .twitter, .wordpress, .youtube {
+	width: 22px;
+	cursor: pointer;
+}
+
+#but:hover {
+	background: magenta;
+	transition: 0.5s;
+}
+
+#but:after {
+	transition: 0.5s;
+}
+
+#but:active  {
+	background: magenta;
+}
